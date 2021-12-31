@@ -1,0 +1,29 @@
+.firstdiv{
+    box-sizing: border-box;
+    display:'block';
+    background-color:#023002;
+    border-top: 30px solid #023002;
+    padding: 1%;
+}
+.secondiv{
+    box-sizing:border-box;
+    display: inline-block;
+    width:20%;
+    height: inherit;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px #000000;
+    color: rgb(255, 255, 255);
+    background-color:#023002;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.secondiv:hover{
+    transform: scale(1.03);
+    border: 1px solid white;
+    background-color:#003d00;
+    text-shadow: 0.5px 0.5px 1px #000000 !important;
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
