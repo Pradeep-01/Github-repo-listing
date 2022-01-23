@@ -8,7 +8,7 @@ const Mainpage = () => {
   
 return (
   <div style={{margin:"5px", boxSizing:"border-box"}}>
-    <HashRouter >
+    <HashRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route exact path="/" element={<Maincard />}/>
       <Route path="/:id" element={<Program />}/>
